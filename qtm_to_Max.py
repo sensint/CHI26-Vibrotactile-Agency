@@ -6,6 +6,7 @@ from datetime import datetime
 import qtm_rt
 from qtm_rt.packet import QRTComponentType
 from pythonosc.udp_client import SimpleUDPClient
+
 import numpy as np
 
 # --- QTM configuration ---
@@ -60,7 +61,7 @@ def handle_qtm_data(packet):
         header, markers = packet.get_3d_markers()
 
         labels = [
-            "Pen - 1", "Pen Tip", "Pen - 3", "Pen - 4",
+            "Pen - 1", "Pen - 2", "Pen - 3", "Pen - 4",
             "Screen - 1", "Screen - 2", "Screen - 3", "Screen - 4"
         ]
 
@@ -71,7 +72,7 @@ def handle_qtm_data(packet):
 
         if len(latest_qtm) >= 8:
             screen_corners = latest_qtm[4:8]
-            pen_tip = latest_qtm[1]
+            pen_tip = latest_qtm[3]
 
             # 1. Compute plane normal from screen corners
             v1 = np.array(screen_corners[1]) - np.array(screen_corners[0])
@@ -86,11 +87,21 @@ def handle_qtm_data(packet):
             print(f"Pen distance to screen: {dist:.2f} mm")
 
             # 3. Check if pen is "touching"
-            if dist < 4.0:  # threshold in mm
+            if dist < 6.0:  # threshold in mm
                 x_local, y_local = rect_point_to_local_xy(screen_corners, pen_tip)
-                print(f"✅ Pen Tip TOUCHING screen at local: x={x_local:.2f}, y={y_local:.2f}")
+                    # Estimate screen width and height from corners
+                width = np.linalg.norm(np.array(screen_corners[1]) - np.array(screen_corners[0]))
+                height = np.linalg.norm(np.array(screen_corners[3]) - np.array(screen_corners[0]))
+                half_width = width / 2
+                half_height = height / 2
+
+                if -half_width <= x_local <= half_width and -half_height <= y_local <= half_height:
+                      print(f"✅ Pen Tip TOUCHING screen at local: x={x_local:.2f}, y={y_local:.2f}")
+                else:
+                    print(f"⚠️ Pen is near the screen but **outside bounds**, local: x={x_local:.2f}, y={y_local:.2f}")
             else:
                 print("🛑 Pen is not touching the screen.")
+            
 
     except Exception as e:
         print(f"bug {e}")
