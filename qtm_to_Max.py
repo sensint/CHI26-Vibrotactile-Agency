@@ -61,7 +61,7 @@ def handle_qtm_data(packet):
         header, markers = packet.get_3d_markers()
 
         labels = [
-            "Pen - 1", "Pen - 2", "Pen - 3", "Pen - 4",
+            "Pen - 1", "Pen - 2", "Pen - 3", "Pen - 4", "Pen - 5",
             "Screen - 1", "Screen - 2", "Screen - 3", "Screen - 4"
         ]
 
@@ -71,8 +71,8 @@ def handle_qtm_data(packet):
             latest_qtm.append([marker.x, marker.y, marker.z])
 
         if len(latest_qtm) >= 8:
-            screen_corners = latest_qtm[4:8]
-            pen_tip = latest_qtm[3]
+            screen_corners = latest_qtm[5:9]
+            pen_tip = latest_qtm[4]
 
             # 1. Compute plane normal from screen corners
             v1 = np.array(screen_corners[1]) - np.array(screen_corners[0])

@@ -88,12 +88,22 @@ def handle_serial_click(event=None):
 
 
 # Serial thread function
+last_serial_click = 0
+DEBOUNCE_MS = 150  # ignore further '1's for this many ms
+
 def listen_serial():
+    button_down = False  # Track button state (pressed or not)
     while True:
         if ser and ser.in_waiting:
             line = ser.readline().decode('utf-8').strip()
             if line == '1':
-                root.event_generate('<<SerialClick>>', when='tail')
+                if not button_down:  # Only fire on the first '1'
+                    root.event_generate('<<SerialClick>>', when='tail')
+                    button_down = True
+            else:  # Any value other than '1' (usually '0')
+                button_down = False  # Reset state when button is released
+
+
 
 # Click handler
 def on_click(event):

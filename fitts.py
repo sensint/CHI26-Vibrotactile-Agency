@@ -1,35 +1,20 @@
-# Combined QTM + Fitts' Law Experiment (Live Pen Coordinates at Button Press)
-
 import time
-import asyncio
 import threading
 import tkinter as tk
 from tkinter import simpledialog, messagebox
 from openpyxl import Workbook
 import os
 import serial
-import numpy as np
-import qtm_rt
-from pythonosc.udp_client import SimpleUDPClient
 from screeninfo import get_monitors
 import ctypes
 from collections import deque
-import copy
 
-# --- QTM configuration ---
-QTM_HOST = '127.0.0.1'
-OSC_HOST = '139.19.40.134'
-UDP_port = 12345
-client = SimpleUDPClient(OSC_HOST, UDP_port)
-osc_address = '/qtm'
 SERIAL_PORT = 'COM7'
 BAUD_RATE = 9600
-
-# --- Global experiment state ---
 W_VALUES = [90, 80, 70, 60, 50]
 D_VALUES = [90, 160, 280, 480, 800]
 TOTAL_TRIALS = 20
-qtm_history = deque(maxlen=3000)
+
 participant_name = ""
 participant_id = ""
 vibro_feedback = False
@@ -44,15 +29,14 @@ current_rect = (0, 0, 0, 0)
 start_time = 0
 CANVAS_WIDTH = 0
 CANVAS_HEIGHT = 0
+experiment_finished = False
 
-# --- Serial connection ---
 try:
     ser = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=0.1)
 except:
     ser = None
     print("Warning: Serial port not available.")
 
-# --- Multi-monitor setup: use second screen if present ---
 monitors = get_monitors()
 selected_monitor = monitors[1] if len(monitors) > 1 else monitors[0]
 root = tk.Tk()
@@ -73,42 +57,12 @@ canvas = tk.Canvas(experiment_window, width=CANVAS_WIDTH, height=CANVAS_HEIGHT, 
 canvas.pack()
 canvas.pack_forget()
 
-def rect_point_to_local_xy(corners, point):
-    corners = np.array(corners)
-    point = np.array(point)
-    center = np.mean(corners, axis=0)
-    u = corners[1] - corners[0]
-    v = corners[3] - corners[0]
-    u_norm = u / np.linalg.norm(u)
-    v_norm = v / np.linalg.norm(v)
-    vec = point - center
-    x_local = np.dot(vec, u_norm)
-    y_local = np.dot(vec, v_norm)
-    return x_local, y_local
-
-def handle_qtm_data(packet):
-    try:
-        now = time.time()
-        header, markers = packet.get_3d_markers()
-        marker_xyz = [[m.x, m.y, m.z] for m in markers]
-        print(f"QTM {now:.3f} | marker_xyz = {marker_xyz}") 
-        qtm_history.append((now, copy.deepcopy(marker_xyz)))
-    except Exception as e:
-        print(f"QTM bug {e}")
-
-async def start_qtm_listener():
-    conn = await qtm_rt.connect(QTM_HOST)
-    await conn.stream_frames(components=['3d' , '6d'], on_packet=handle_qtm_data)
-
-async def wait_for_valid_qtm():
-    while True:
-        await asyncio.sleep(0.01)
-        if len(qtm_history) > 0 and len(qtm_history[-1][1]) >= 8:
-            break
-
 def draw_rectangle():
     global current_rect, start_time
     canvas.delete("all")
+    for rect in previous_rects:
+        canvas.create_rectangle(rect[0], rect[1], rect[0] + rect[2], rect[1] + rect[3], fill="lightgrey")
+
     rect_width = W_VALUES[difficulty - 1]
     distance = D_VALUES[difficulty - 1]
     rect_height = CANVAS_HEIGHT
@@ -119,61 +73,41 @@ def draw_rectangle():
     current_rect = (rect_x, rect_y, rect_width, rect_height)
     start_time = time.time()
 
-def qtm_to_canvas_xy(corners, point):
-    # Convert QTM local xy (in mm, centered at screen) to canvas pixel xy
-    v1 = np.array(corners[1]) - np.array(corners[0])
-    v2 = np.array(corners[3]) - np.array(corners[0])
-    width_mm = np.linalg.norm(v1)
-    height_mm = np.linalg.norm(v2)
-    x_local, y_local = rect_point_to_local_xy(corners, point)
-    # Map to center of canvas
-    clickX = (x_local / (width_mm/2)) * (CANVAS_WIDTH/2) + (CANVAS_WIDTH/2)
-    clickY = (y_local / (height_mm/2)) * (CANVAS_HEIGHT/2) + (CANVAS_HEIGHT/2)
-    return clickX, clickY
-
 def handle_serial_click(event=None):
-    global clicks, target_side, current_rect
+    global clicks, target_side, current_rect, experiment_finished
+    if experiment_finished:
+        return
+
     click_time = time.time()
     mt = (click_time - start_time) * 1000
-
-    clickX = clickY = PenX = PenY = PenZ = 0
-    if qtm_history:
-        closest = min(qtm_history, key=lambda x: abs(x[0] - click_time))
-        marker_xyz = closest[1]
-        if len(marker_xyz) >= 8:
-            tip = marker_xyz[4]
-            corners = marker_xyz[4:8]
-            clickX, clickY = qtm_to_canvas_xy(corners, tip)
-            PenX, PenY, PenZ = tip
+    error = False
 
     rect_x, rect_y, rect_w, rect_h = current_rect
-    inside = rect_x <= clickX <= rect_x + rect_w and rect_y <= clickY <= rect_y + rect_h
-    error = not inside
+    if not (rect_x <= CANVAS_WIDTH // 2 <= rect_x + rect_w and rect_y <= CANVAS_HEIGHT // 2 <= rect_y + rect_h):
+        error = True
+
     speed = D_VALUES[difficulty - 1] / mt if mt > 0 else 0
     throughput = difficulty / (mt / 1000) if mt > 0 else 0
 
-    print(f"Clicked at {click_time}, Pen tip XYZ: {PenX},{PenY},{PenZ}, clickX: {clickX}, clickY: {clickY}, error: {error}")
     data.append({
         'MT': mt,
         'speed': speed,
         'error': int(error),
-        'clickX': clickX,
-        'clickY': clickY,
-        'throughput': throughput,
-        'PenX': PenX,
-        'PenY': PenY,
-        'PenZ': PenZ
+        'throughput': throughput
     })
 
+    previous_rects.append(current_rect)
     clicks += 1
     target_side *= -1
 
     if clicks >= TOTAL_TRIALS:
-        save_data_and_finish()
+        experiment_finished = True
+        end_trial()
     else:
         draw_rectangle()
 
 def save_data_and_finish():
+    global experiment_finished
     avg_mt = sum(d['MT'] for d in data) / TOTAL_TRIALS
     avg_speed = sum(d['speed'] for d in data) / TOTAL_TRIALS
     avg_tp = sum(d['throughput'] for d in data) / TOTAL_TRIALS
@@ -182,17 +116,13 @@ def save_data_and_finish():
         'MT': avg_mt,
         'speed': avg_speed,
         'error': avg_err,
-        'clickX': 'Avg',
-        'clickY': '',
-        'throughput': avg_tp,
-        'PenX': '',
-        'PenY': '',
-        'PenZ': ''
+        'throughput': avg_tp
     })
+    from openpyxl import Workbook
     wb = Workbook()
     ws = wb.active
     ws.title = "Results"
-    headers = ['MT', 'speed', 'error', 'clickX', 'clickY', 'throughput', 'PenX', 'PenY', 'PenZ']
+    headers = ['MT', 'speed', 'error', 'throughput']
     ws.append(headers)
     for row in data:
         ws.append([row.get(h, '') for h in headers])
@@ -200,11 +130,16 @@ def save_data_and_finish():
     filename = f"{participant_name}_{participant_id}_{vibro_label}_ID{difficulty}_trial{trial_count[participant_id][difficulty]}.xlsx"
     filepath = os.path.join(participant_folder, filename)
     wb.save(filepath)
-    messagebox.showinfo("Trial Finished", f"Avg MT: {avg_mt:.2f} ms\nAvg Speed: {avg_speed:.2f} px/ms\nAvg Throughput: {avg_tp:.2f} bit/s\nAvg Error: {avg_err*100:.2f}%", parent=experiment_window)
-    canvas.pack_forget()
-    experiment_window.quit()
 
-experiment_window.bind('<<SerialClick>>', handle_serial_click)
+    summary = f"Avg MT: {avg_mt:.2f} ms\nAvg Speed: {avg_speed:.2f} px/ms\nAvg Throughput: {avg_tp:.2f} bit/s\nAvg Error: {avg_err*100:.2f}%"
+    if messagebox.askyesno("Experiment Finished", f"{summary}\n\nDo you want to continue with another difficulty?", parent=experiment_window):
+        experiment_finished = False
+        begin_trial()
+    else:
+        experiment_window.destroy()
+
+def end_trial():
+    save_data_and_finish()
 
 def listen_serial():
     while True:
@@ -238,6 +173,8 @@ def start_experiment():
     participant_folder = f"{participant_name}_{participant_id}"
     if not os.path.exists(participant_folder):
         os.makedirs(participant_folder)
+    with open("current_session_path.txt", "w") as f:
+        f.write(participant_folder)
     begin_trial()
 
 btn_start = tk.Button(experiment_window, text="Start Experiment", command=start_experiment, font=("Arial", 20))
@@ -248,14 +185,5 @@ if ser:
     serial_thread = threading.Thread(target=listen_serial, daemon=True)
     serial_thread.start()
 
-def run_tk():
-    experiment_window.mainloop()
-
-async def main():
-    asyncio.ensure_future(start_qtm_listener())
-    await wait_for_valid_qtm()
-    run_tk()
-
-if __name__ == '__main__':
-    time.sleep(2)
-    asyncio.run(main())
+experiment_window.bind('<<SerialClick>>', handle_serial_click)
+experiment_window.mainloop()

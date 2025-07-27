@@ -93,8 +93,8 @@ def rect_point_to_local_xy(corners, point):
     corners = np.array(corners)
     point = np.array(point)
     center = np.mean(corners, axis=0)
-    u = corners[1] - corners[0]
-    v = corners[3] - corners[0]
+    u = corners[3] - corners[0]
+    v = corners[1] - corners[0]
     u_norm = u / np.linalg.norm(u)
     v_norm = v / np.linalg.norm(v)
     vec = point - center
