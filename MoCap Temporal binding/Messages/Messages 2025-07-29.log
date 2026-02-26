@@ -1,0 +1,25 @@
+1	10:20:34	Error(s) when starting realtime. Double-click for more information	Error(s) when starting realtime:  001 - code 19 - camera 02 (192.168.253.3) : The camera did not reply in the expected way during a(n) 'set settings' operation. Camera information:  Apply failed.
+1	10:21:56	Error(s) when starting realtime. Double-click for more information	Error(s) when starting realtime:  001 - code 19 - camera 02 (192.168.253.3) : The camera did not reply in the expected way during a(n) 'set settings' operation. Camera information:  Apply failed.
+1	10:22:09	Error(s) when starting realtime. Double-click for more information	Error(s) when starting realtime:  001 - code 19 - camera 02 (192.168.253.3) : The camera did not reply in the expected way during a(n) 'set settings' operation. Camera information:  Apply failed.
+1	10:22:44	Realtime started	
+1	10:35:47	Disconnected	
+1	10:45:56	Realtime started	
+1	10:46:09	Disconnected	
+1	10:46:09	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 002 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection.
+1	10:49:23	Realtime started	
+1	12:34:34	Disconnected	
+1	14:18:07	Realtime started	
+1	14:27:17	Disconnected	
+1	14:32:34	Realtime started	
+1	14:46:54	Disconnected	
+1	14:52:41	Realtime started	
+1	15:28:20	Not all gaps were filled	896 gaps out of 925 were filled. The other 29 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	15:28:21	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	15:28:21	Not all gaps were filled	No gaps were filled. The gaps were all longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	15:28:21	File created	
+1	15:28:37	File closed	
+1	15:28:39	Realtime started	
+1	17:38:40	Realtime started	
+1	17:39:47	Disconnected	
+1	18:03:55	Realtime started	
+1	18:54:19	Disconnected	

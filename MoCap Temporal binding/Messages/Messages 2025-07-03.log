@@ -1,0 +1,65 @@
+1	10:34:21	Realtime started	
+1	10:34:41	Rigid body identification results	Rigid body identification results:  0 successful  2 failed
+1	10:34:41	File created	
+1	10:34:52	File closed	
+1	10:34:53	Realtime started	
+1	10:48:48	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	10:48:48	File created	
+1	11:01:18	File closed	
+1	11:02:37	Realtime started	
+1	11:06:03	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	11:06:03	File created	
+1	11:13:30	File closed	
+1	16:30:58	Realtime started	
+1	16:50:48	File created	
+1	16:50:48	File saved as C:\Users\aykumar\Documents\chi\Calibrations\20250703_165037.qca	
+1	16:50:48	Calibration started	
+1	16:50:49	Calibration finished after 1.1670 seconds	
+1	16:50:49	File saved as C:\Users\aykumar\Documents\chi\Calibrations\20250703_165037_FAILED.qca	
+1	16:50:54	File closed	
+1	16:50:57	Realtime started	
+1	16:51:27	File created	
+1	16:51:27	File saved as C:\Users\aykumar\Documents\chi\Calibrations\20250703_165116.qca	
+1	16:51:27	Calibration started	
+1	16:51:28	Calibration finished after 0.8616 seconds	
+1	16:51:28	File saved as C:\Users\aykumar\Documents\chi\Calibrations\20250703_165116_FAILED.qca	
+1	16:51:33	File closed	
+1	16:51:42	Realtime started	
+1	16:52:06	File created	
+1	16:52:06	File saved as C:\Users\aykumar\Documents\chi\Calibrations\20250703_165156.qca	
+1	16:52:06	Calibration started	
+1	16:52:08	Calibration finished after 1.9593 seconds	
+1	16:52:08	File saved as C:\Users\aykumar\Documents\chi\Calibrations\20250703_165156_FAILED.qca	
+1	16:52:10	File closed	
+1	16:52:12	Realtime started	
+1	16:53:00	File created	
+1	16:53:00	File saved as C:\Users\aykumar\Documents\chi\Calibrations\20250703_165229.qca	
+1	16:53:01	Calibration started	
+1	16:53:02	Calibration finished after 1.7134 seconds	
+1	16:53:02	File saved as C:\Users\aykumar\Documents\chi\Calibrations\20250703_165229_FAILED.qca	
+1	16:53:12	File closed	
+1	16:53:16	Realtime started	
+1	16:54:25	File created	
+1	16:54:25	File saved as C:\Users\aykumar\Documents\chi\Calibrations\20250703_165344.qca	
+1	16:54:26	Calibration started	
+1	16:54:27	Calibration finished after 1.1153 seconds	
+1	16:54:27	File saved as C:\Users\aykumar\Documents\chi\Calibrations\20250703_165344.qca	
+1	16:54:34	File closed	
+1	16:54:43	Realtime started	
+1	16:56:45	File created	
+1	16:56:45	File saved as C:\Users\aykumar\Documents\chi\Calibrations\20250703_165543.qca	
+1	16:56:45	Calibration started	
+1	16:56:46	Calibration finished after 0.9504 seconds	
+1	16:56:46	File saved as C:\Users\aykumar\Documents\chi\Calibrations\20250703_165543.qca	
+1	16:56:50	File closed	
+1	16:56:53	Realtime started	
+1	16:57:05	Disconnected	
+1	16:57:12	Realtime started	
+1	18:41:14	Disconnected	
+1	18:41:14	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 002 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 003 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 004 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 005 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection. 006 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 007 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 008 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection. 009 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 010 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 011 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 012 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection.
+1	20:12:57	Realtime started	
+1	20:17:30	Disconnected	
+1	20:22:30	Realtime started	
+1	20:27:14	Rigid body identification results	Rigid body identification results:  2 successful  1 failed
+1	20:27:14	File created	
+1	20:31:05	File closed	

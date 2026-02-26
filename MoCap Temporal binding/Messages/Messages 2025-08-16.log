@@ -1,0 +1,52 @@
+1	01:31:41	Disconnected	
+1	17:18:25	Camera synchronization error.	Error(s) while connecting to cameras:  Camera 5 (192.168.253.8) - Error code (10): The camera closed the connection. Camera 6 (192.168.253.5) - Error code (10): The camera closed the connection. 
+1	17:19:12	Realtime started	
+1	18:28:30	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	18:28:30	File created	
+1	18:30:26	File closed	
+1	18:30:27	Realtime started	
+1	18:30:46	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	18:30:46	File created	
+1	18:41:52	File closed	
+1	18:42:09	Realtime started	
+1	18:43:25	Not all gaps were filled	356 gaps out of 408 were filled. The other 52 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	18:43:25	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	18:43:25	Not all gaps were filled	No gaps were filled. The gaps were all longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	18:43:25	File created	
+1	18:43:38	File closed	
+1	18:43:39	Realtime started	
+1	18:43:56	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	18:43:56	File created	
+1	18:43:59	File closed	
+1	18:44:00	Realtime started	
+1	18:44:39	Not all gaps were filled	796 gaps out of 905 were filled. The other 109 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	18:44:39	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	18:44:39	Not all gaps were filled	No gaps were filled. The gaps were all longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	18:44:39	File created	
+1	18:56:07	File closed	
+1	18:57:06	Realtime started	
+1	18:57:41	Not all gaps were filled	646 gaps out of 707 were filled. The other 61 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	18:57:41	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	18:57:41	Not all gaps were filled	No gaps were filled. The gaps were all longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	18:57:41	File created	
+1	18:58:50	File closed	
+1	18:58:52	Realtime started	
+1	18:59:47	Not all gaps were filled	240 gaps out of 281 were filled. The other 41 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	18:59:47	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	18:59:47	Not all gaps were filled	No gaps were filled. The gaps were all longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	18:59:47	File created	
+1	18:59:49	File closed	
+1	18:59:51	Realtime started	
+1	19:00:45	Not all gaps were filled	1021 gaps out of 1130 were filled. The other 109 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	19:00:45	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	19:00:45	Not all gaps were filled	No gaps were filled. The gaps were all longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	19:00:46	File created	
+1	19:29:16	File closed	
+1	19:29:47	Realtime started	
+1	19:30:49	Not all gaps were filled	47 gaps out of 57 were filled. The other 10 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	19:30:49	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	19:30:49	Not all gaps were filled	No gaps were filled. The gaps were all longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	19:30:49	File created	
+1	20:20:28	File closed	
+1	20:21:37	Realtime started	
+1	20:27:26	Disconnected	

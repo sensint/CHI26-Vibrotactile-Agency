@@ -1,0 +1,49 @@
+1	18:10:22	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\20250701_173634.qca	
+1	18:10:43	File closed	
+1	18:10:49	Realtime started	
+1	18:13:17	Disconnected	
+1	18:14:33	Realtime started	
+1	18:15:44	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	18:15:44	Not all gaps were filled	The gap was not filled. The gap was longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	18:15:44	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "Screen": in 17 of the 3000 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	18:15:44	File created	
+1	18:16:52	Rigid body: Pen added.	The new body definition was added both to the file and to the Project Options.
+1	18:16:52	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "Screen": in 17 of the 3000 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	18:32:00	File closed	
+1	18:32:01	Realtime started	
+1	18:32:40	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	18:32:40	Not all gaps were filled	2 gaps out of 9 were filled. The other 7 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	18:32:40	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "Screen": in 26 of the 2921 frames where at least three points were present Body "Pen": in 36 of the 2283 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	18:32:40	File created	
+1	18:34:03	Rigid body: Screen added.	The new body definition was added both to the file and to the Project Options.
+1	18:34:03	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "Screen": in 3000 of the 3000 frames where at least three points were present Body "Pen": in 36 of the 2283 frames where at least three points were present Body "Screen": in 227 of the 3000 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	18:36:45	File closed	
+1	18:36:46	Realtime started	
+1	18:37:50	Rigid body identification results	Rigid body identification results:  4 successful  0 failed  1 skipped(already identified, or part of an AIM model)
+1	18:37:50	Not all gaps were filled	6 gaps out of 7 were filled. One gap was longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	18:37:50	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "Screen": in 16 of the 1467 frames where at least three points were present Body "Pen": in 1 of the 1456 frames where at least three points were present Body "Screen": in 1467 of the 1467 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	18:37:50	File created	
+1	18:39:06	File closed	
+1	18:39:08	Realtime started	
+1	18:39:28	Rigid body identification results	Rigid body identification results:  2 successful  1 failed
+1	18:39:28	Not all gaps were filled	One gap out of 4 was filled. The other 3 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	18:39:28	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "Screen": in 4 of the 1000 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	18:39:28	File created	
+1	18:39:39	File closed	
+1	18:39:40	Realtime started	
+1	18:39:56	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	18:39:56	Not all gaps were filled	One gap out of 2 was filled. The other gap was longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	18:39:56	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "Screen": in 11 of the 1000 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	18:39:56	File created	
+1	18:41:00	File closed	
+1	18:41:01	Realtime started	
+1	18:41:19	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	18:41:19	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "Screen": in 4 of the 1000 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	18:41:19	File created	
+1	18:44:24	File closed	
+1	18:44:25	Realtime started	
+1	18:44:39	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	18:44:39	File created	
+1	18:47:13	File closed	
+1	18:47:14	Realtime started	
+1	18:58:58	Disconnected	

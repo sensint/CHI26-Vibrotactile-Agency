@@ -1,0 +1,20 @@
+1	11:04:45	Disconnected	
+1	11:04:45	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 10 - camera 02 (192.168.151.7) : The camera closed the connection. 002 - code 10 - camera 02 (192.168.151.7) : The camera closed the connection. 003 - code 10 - camera 04 (192.168.151.4) : The camera closed the connection. 004 - code 10 - camera 05 (192.168.151.6) : The camera closed the connection. 005 - code 10 - camera 05 (192.168.151.6) : The camera closed the connection. 006 - code 10 - camera 03 (192.168.151.3) : The camera closed the connection. 007 - code 10 - camera 03 (192.168.151.3) : The camera closed the connection. 008 - code 10 - camera 04 (192.168.151.4) : The camera closed the connection. 009 - code 10 - camera 01 (192.168.151.5) : The camera closed the connection. 010 - code 10 - camera 01 (192.168.151.5) : The camera closed the connection.
+1	19:42:42	Realtime started	
+1	19:56:58	Realtime started	
+1	20:30:40	Disconnected	
+1	20:47:53	Realtime started	
+1	20:52:05	Disconnected	
+1	20:52:24	Realtime started	
+1	21:08:09	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	21:08:09	File created	
+1	21:12:33	File closed	
+1	21:12:34	Realtime started	
+1	21:12:44	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	21:12:44	File created	
+1	21:12:47	File closed	
+1	21:12:48	Realtime started	
+1	21:13:32	Disconnected	
+1	21:14:16	Realtime started	
+1	21:55:04	Disconnected	
+1	21:55:21	Realtime started	

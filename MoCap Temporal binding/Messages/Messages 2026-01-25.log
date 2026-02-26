@@ -1,0 +1,2 @@
+1	22:49:55	Camera synchronization error.	Error(s) while connecting to cameras:  Camera 1 (192.168.151.5) - Error code (10): The camera closed the connection. Camera 2 (192.168.151.7) - Error code (10): The camera closed the connection. Camera 3 (192.168.151.6) - Error code (10): The camera closed the connection. 
+1	22:50:39	Realtime started	

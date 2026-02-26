@@ -1,0 +1,10 @@
+1	14:16:14	Realtime started	
+1	15:42:01	Realtime started	
+1	16:20:45	Not all gaps were filled	2 gaps out of 3 were filled. One gap was longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	16:20:45	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	16:20:45	Not all gaps were filled	The gap was not filled. The gap was longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	16:20:45	File created	
+1	16:21:15	File closed	
+1	16:21:16	Realtime started	
+1	18:28:08	Realtime started	
+1	19:43:23	Disconnected	

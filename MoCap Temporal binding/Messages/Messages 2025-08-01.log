@@ -1,0 +1,27 @@
+1	11:21:12	Realtime started	
+1	11:28:21	Disconnected	
+1	14:58:30	Realtime started	
+1	16:59:50	Disconnected	
+1	17:00:27	Realtime started	
+1	17:13:04	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	17:13:04	File created	
+1	17:13:20	File closed	
+1	17:13:21	Realtime started	
+1	17:27:17	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	17:27:17	File created	
+1	17:27:33	File closed	
+1	17:27:34	Realtime started	
+1	17:34:58	A measurement error occurred	Error when fetching frames  001 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 002 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 003 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 004 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection. 005 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 006 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection.
+1	17:35:17	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	17:35:18	File created	
+1	17:35:31	File closed	
+1	17:35:32	Realtime started	
+1	17:35:44	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	17:35:44	File created	
+1	17:36:12	File closed	
+1	17:36:13	Realtime started	
+1	17:36:26	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	17:36:26	File created	
+1	17:36:31	File closed	
+1	17:36:33	Realtime started	
+1	17:42:10	Disconnected	

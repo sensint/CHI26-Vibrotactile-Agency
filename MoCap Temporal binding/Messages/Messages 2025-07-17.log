@@ -1,0 +1,29 @@
+1	14:58:02	Realtime started	
+1	14:58:30	Disconnected	
+1	14:58:32	Realtime started	
+1	14:58:38	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	14:58:38	File created	
+2	14:59:20	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qca	
+2	14:59:23	File closed	
+3	14:59:43	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qca	
+3	14:59:49	File closed	
+3	14:59:50	Realtime started	
+3	14:59:57	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+3	14:59:57	File created	
+3	15:00:11	File closed	
+1	15:01:27	File closed	
+1	15:01:28	Realtime started	
+1	15:01:35	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	15:01:35	File created	
+1	15:28:31	File closed	
+1	15:37:12	Realtime started	
+1	18:09:25	Disconnected	
+1	18:09:25	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 09 - camera 03 (192.168.253.8) : The camera has stopped communicating. 002 - code 09 - camera 05 (192.168.253.5) : The camera has stopped communicating.
+1	20:11:43	Realtime started	
+1	23:34:11	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	23:34:11	Not all gaps were filled	One gap out of 2 was filled. The other gap was longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	23:34:11	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "PEN": in 9 of the 488 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	23:34:11	File created	
+1	23:34:43	File closed	
+1	23:34:44	Realtime started	
+1	23:41:12	Disconnected	

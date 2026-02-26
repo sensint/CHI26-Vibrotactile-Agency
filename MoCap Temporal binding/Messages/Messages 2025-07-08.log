@@ -1,0 +1,88 @@
+1	12:40:19	Realtime started	
+1	12:51:54	Disconnected	
+1	12:51:54	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 002 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 003 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 004 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 005 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection. 006 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 007 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 008 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection. 009 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 010 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 011 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 012 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection.
+1	12:53:44	Realtime started	
+1	13:13:23	Disconnected	
+1	13:13:23	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 002 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection. 003 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 004 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 005 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection. 006 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 007 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 008 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 009 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 010 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 011 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 012 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection.
+1	14:11:09	Dialogs must be closed before opening another measurement	
+1	14:11:14	File loaded from C:\Users\aykumar\Documents\CHI2026\Calibrations\q.qtm	
+1	14:11:45	File closed	
+1	14:11:46	Realtime started	
+1	14:14:29	Disconnected	
+1	14:14:34	Realtime started	
+1	14:15:23	Disconnected	
+1	14:15:23	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 09 - camera 05 (192.168.253.5) : The camera has stopped communicating.
+1	14:15:38	Realtime started	
+1	14:18:26	Disconnected	
+1	14:18:26	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 10 - camera 04 (192.168.253.6) : The camera closed the connection. 002 - code 10 - camera 04 (192.168.253.6) : The camera closed the connection. 003 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 004 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 005 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 006 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 007 - code 10 - camera 03 (192.168.253.7) : The camera closed the connection. 008 - code 10 - camera 03 (192.168.253.7) : The camera closed the connection.
+1	14:19:16	Realtime started	
+1	14:19:18	Disconnected	
+1	14:19:18	Error(s) when starting realtime. Double-click for more information	Error(s) when starting realtime:  001 - code 24 - camera 00 (0.0.0.0) : No master camera was found when trying to 'start measurement'
+1	14:19:59	Realtime started	
+1	14:20:31	Disconnected	
+1	15:08:58	Realtime started	
+1	15:11:21	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	15:11:21	File created	
+1	15:11:49	File closed	
+1	15:11:50	Realtime started	
+1	15:12:06	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	15:12:06	Not all gaps were filled	One gap out of 3 was filled. The other 2 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	15:12:06	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "Screen": in 1 of the 1000 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	15:12:06	File created	
+1	15:12:10	File closed	
+1	15:12:11	Realtime started	
+1	15:12:48	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	15:12:48	Not all gaps were filled	No gaps were filled. The gaps were all longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	15:12:48	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "Screen": in 7 of the 3000 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	15:12:48	File created	
+1	15:13:18	Rigid body: Pen added.	The new body definition was added both to the file and to the Project Options.
+1	15:13:18	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "Screen": in 7 of the 3000 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	15:17:16	File saved as C:\Users\aykumar\Documents\CHI2026\Calibrations\ad.qtm	
+1	15:17:16	File closed	
+1	15:17:17	Realtime started	
+1	15:17:46	Disconnected	
+1	15:20:00	Realtime started	
+1	15:27:07	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	15:27:07	File created	
+1	15:29:42	File closed	
+1	15:29:43	Realtime started	
+1	15:30:16	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	15:30:16	File created	
+1	15:33:44	File closed	
+1	15:36:02	Realtime started	
+1	15:42:10	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	15:42:10	File created	
+1	15:43:05	File closed	
+1	15:43:06	Realtime started	
+1	15:43:13	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	15:43:13	File created	
+1	15:44:46	File closed	
+1	15:44:47	Realtime started	
+1	15:47:55	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	15:47:55	File created	
+1	15:49:06	File closed	
+1	15:49:07	Realtime started	
+1	15:51:23	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	15:51:23	File created	
+1	15:53:25	File closed	
+1	15:53:26	Realtime started	
+1	15:54:53	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	15:54:53	File created	
+1	15:56:17	File closed	
+1	15:56:19	Realtime started	
+1	15:56:27	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	15:56:27	File created	
+1	15:58:47	File closed	
+1	15:58:49	Realtime started	
+1	15:58:56	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	15:58:56	File created	
+1	15:59:03	File closed	
+1	15:59:04	Realtime started	
+1	16:02:31	A measurement error occurred	Error when waiting for realtime frame  001 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 002 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection. 003 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 004 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 005 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 006 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 007 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 008 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection. 009 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 010 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 011 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 012 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection.
+1	16:02:31	Camera 3 did not return expected amount of marker frames (19625 / 20116)	Camera 3 did not return expected amount of marker frames (19625 / 20116)
+1	16:02:31	Camera 5 did not return expected amount of marker frames (19625 / 20116)	Camera 5 did not return expected amount of marker frames (19625 / 20116)
+1	16:02:33	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	16:02:33	Not all gaps were filled	3 gaps out of 19 were filled. The other 16 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	16:02:34	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "Pen": in 16 of the 18888 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	16:02:34	File created	
+1	16:02:55	File closed	

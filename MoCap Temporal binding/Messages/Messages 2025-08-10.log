@@ -1,0 +1,8 @@
+1	20:19:05	Realtime started	
+1	21:32:32	Disconnected	
+1	21:34:31	Realtime started	
+1	22:10:41	Disconnected	
+1	22:19:46	Dialogs must be closed before opening another measurement	
+1	22:32:32	Realtime started	
+1	23:35:43	Disconnected	
+1	23:35:43	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 002 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 003 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 004 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 005 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 006 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection. 007 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection. 008 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 009 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 010 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 011 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 012 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection.

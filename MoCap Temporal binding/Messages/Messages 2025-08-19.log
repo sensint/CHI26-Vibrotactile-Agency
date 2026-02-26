@@ -1,0 +1,105 @@
+1	08:05:54	Realtime started	
+1	09:28:18	Disconnected	
+1	09:28:50	Realtime started	
+1	11:23:49	Disconnected	
+1	11:31:28	Realtime started	
+1	12:06:01	Disconnected	
+1	12:06:13	Realtime started	
+1	14:29:54	Disconnected	
+1	15:07:15	Realtime started	
+1	15:49:47	Disconnected	
+1	15:50:02	Realtime started	
+1	15:51:53	Disconnected	
+1	15:53:24	Camera synchronization error.	Error(s) while connecting to cameras:  Camera 2 (192.168.253.8) - Error code (10): The camera closed the connection. 
+1	15:54:23	Realtime started	
+1	15:54:30	Disconnected	
+1	15:56:28	Realtime started	
+1	15:56:54	Disconnected	
+1	16:02:51	Realtime started	
+1	16:07:49	Disconnected	
+1	16:10:53	Realtime started	
+1	16:11:13	Disconnected	
+1	16:21:09	Realtime started	
+1	16:24:21	Not all gaps were filled	The gap was not filled. The gap was longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	16:24:21	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	16:24:21	Not all gaps were filled	The gap was not filled. The gap was longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	16:24:21	File created	
+1	16:24:41	File closed	
+1	16:24:42	Realtime started	
+1	16:48:46	Disconnected	
+1	16:50:53	Realtime started	
+1	16:52:07	Disconnected	
+1	16:52:44	Realtime started	
+1	16:55:06	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	16:55:07	File created	
+1	16:56:01	File closed	
+1	16:56:02	Realtime started	
+1	16:56:56	Disconnected	
+1	17:07:43	Realtime started	
+1	17:07:58	Disconnected	
+1	17:09:13	Realtime started	
+1	17:09:28	Disconnected	
+1	17:10:56	Realtime started	
+1	17:18:25	Disconnected	
+1	18:03:32	Realtime started	
+1	18:27:23	Disconnected	
+1	18:48:34	Realtime started	
+1	18:56:57	No 6D bodies are enabled	
+1	18:56:57	File created	
+1	18:57:14	Rigid body: Screen! added.	The new body definition was added both to the file and to the Project Options.
+1	18:58:17	File closed	
+1	18:58:18	Realtime started	
+1	18:58:28	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	18:58:28	File created	
+1	18:58:44	Rigid body: Pen1 added.	The new body definition was added both to the file and to the Project Options.
+1	18:59:25	File closed	
+1	18:59:26	Realtime started	
+1	18:59:35	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	18:59:35	File created	
+1	18:59:49	Rigid body: Pen1 added.	The new body definition was added both to the file and to the Project Options.
+1	19:00:43	File closed	
+1	19:00:44	Realtime started	
+1	19:00:53	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	19:00:53	File created	
+1	19:01:06	Rigid body: Pen1 added.	The new body definition was added both to the file and to the Project Options.
+1	19:03:04	File closed	
+1	19:03:05	Realtime started	
+1	19:05:17	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	19:05:18	File created	
+1	19:07:09	File closed	
+1	19:07:10	Realtime started	
+1	19:07:37	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	19:07:37	File created	
+1	19:09:39	File closed	
+1	19:09:40	Realtime started	
+1	19:09:51	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	19:09:51	File created	
+1	19:11:03	File closed	
+1	19:11:04	Realtime started	
+1	19:11:23	Not all gaps were filled	3533 gaps out of 3657 were filled. The other 124 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	19:11:23	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	19:11:23	Not all gaps were filled	No gaps were filled. The gaps were all longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	19:11:23	File created	
+1	19:11:34	File closed	
+1	19:11:35	Realtime started	
+1	19:11:44	Not all gaps were filled	903 gaps out of 927 were filled. The other 24 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	19:11:44	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	19:11:44	Not all gaps were filled	No gaps were filled. The gaps were all longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	19:11:44	File created	
+1	19:11:56	File closed	
+1	19:11:57	Realtime started	
+1	19:16:00	Camera reset due to error	The cameras "53432" and "53427" have been reset due to error.  Continuing without those cameras... Error: 001 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection. 002 - code 10 - camera 03 (192.168.253.5) : The camera closed the connection.
+1	19:16:04	Camera 3 did not return expected amount of marker frames (166894 / 167623)	Camera 3 did not return expected amount of marker frames (166894 / 167623)
+1	19:16:04	Camera 4 did not return expected amount of marker frames (166894 / 167623)	Camera 4 did not return expected amount of marker frames (166894 / 167623)
+1	19:16:51	Disconnected	
+1	19:17:02	Realtime started	
+1	19:17:15	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	19:17:15	File created	
+1	19:18:21	File closed	
+1	19:18:22	Realtime started	
+1	20:23:44	Disconnected	
+1	20:52:39	Realtime started	
+1	20:52:45	Disconnected	
+1	20:53:56	Camera synchronization error.	Error(s) while connecting to cameras:  Camera 4 (192.168.253.7) - Error code (10): The camera closed the connection. Camera 5 (192.168.253.8) - Error code (10): The camera closed the connection. 
+1	20:54:42	Realtime started	
+1	21:17:10	Disconnected	

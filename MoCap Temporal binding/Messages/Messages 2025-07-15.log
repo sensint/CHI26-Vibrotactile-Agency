@@ -1,0 +1,156 @@
+1	14:30:37	Realtime started	
+2	14:32:23	File loaded from C:\Users\aykumar\Downloads\q.qtm	
+2	14:32:25	File closed	
+1	14:32:50	Disconnected	
+1	14:33:42	File loaded from C:\Users\aykumar\Documents\Qualisys\Data\data.qtm	
+1	14:33:44	File closed	
+1	14:34:37	Realtime started	
+2	14:35:11	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qtm	
+2	14:35:16	File closed	
+1	14:35:55	Disconnected	
+1	14:36:18	Realtime started	
+1	14:36:39	Disconnected	
+1	14:40:13	Realtime started	
+2	14:41:36	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qtm	
+2	14:41:38	File closed	
+1	14:41:56	Disconnected	
+1	14:42:12	Realtime started	
+2	14:42:48	File loaded from C:\Users\aykumar\Documents\CHI2026\Calibrations\ad.qtm	
+3	14:42:58	File loaded from C:\Users\aykumar\Documents\CHI2026\Calibrations\20250701_173634.qca	
+3	14:43:02	File closed	
+4	14:43:06	File loaded from C:\Users\aykumar\Documents\CHI2026\Calibrations\20250701_173459.qca	
+4	14:43:08	File closed	
+5	14:43:11	File loaded from C:\Users\aykumar\Documents\CHI2026\Calibrations\q.qtm	
+5	14:43:14	File closed	
+6	14:43:18	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\20250703_165543.qca	
+6	14:43:25	File closed	
+7	14:43:31	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\20250703_165543.qca	
+8	14:43:37	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\20250703_165344.qca	
+8	14:43:40	File closed	
+7	14:43:48	File closed	
+9	14:44:30	File loaded from C:\Users\aykumar\Documents\CHI2026\Calibrations\q.qca	
+9	14:44:32	File closed	
+1	14:44:46	Disconnected	
+2	14:44:53	File closed	
+1	14:45:07	Realtime started	
+1	14:45:30	Disconnected	
+1	14:46:31	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qca	
+1	14:46:35	File closed	
+1	14:46:36	Realtime started	
+1	14:46:55	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	14:46:55	File created	
+1	14:47:01	File closed	
+1	14:47:14	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qca	
+1	14:48:29	File closed	
+2	14:48:41	Realtime started	
+3	14:48:55	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qca	
+2	14:49:15	Disconnected	
+3	14:49:18	File closed	
+3	14:49:19	Realtime started	
+3	14:49:26	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+3	14:49:26	File created	
+4	14:50:47	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qca	
+4	14:51:25	File closed	
+4	14:51:26	Realtime started	
+4	14:51:36	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+4	14:51:36	File created	
+4	14:52:00	File closed	
+5	14:52:36	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qca	
+3	14:53:00	File closed	
+3	14:53:02	Realtime started	
+5	14:53:19	Calibration finished after 43.2398 seconds	
+1	14:53:45	Realtime started	
+1	14:54:17	Disconnected	
+1	14:55:11	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qca	
+1	14:55:33	File closed	
+1	14:55:34	Realtime started	
+1	14:55:43	Disconnected	
+1	15:00:22	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qca	
+1	15:00:30	File closed	
+1	15:00:31	Realtime started	
+1	15:00:49	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	15:00:49	File created	
+1	15:01:15	File saved as C:\Users\aykumar\Documents\CHI2k26\q (1).qca	
+1	15:02:17	File closed	
+1	15:04:52	Realtime started	
+1	15:07:48	Disconnected	
+1	15:08:21	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qca	
+1	15:09:00	File closed	
+1	15:09:07	Realtime started	
+2	15:12:33	File loaded from C:\Users\aykumar\Downloads\q.qtm	
+3	15:14:57	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\20250703_165543.qca	
+3	15:15:01	File closed	
+4	15:15:03	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\20250703_165344.qca	
+4	15:15:06	File closed	
+5	15:15:08	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\20250703_165229_FAILED.qca	
+5	15:15:10	File closed	
+6	15:15:13	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\20250703_165156_FAILED.qca	
+6	15:15:15	File closed	
+7	15:15:17	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\20250703_165116_FAILED.qca	
+7	15:15:18	File closed	
+8	15:15:21	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\20250701_173634.qca	
+8	15:15:29	File closed	
+9	15:15:32	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qca	
+9	15:15:36	File closed	
+10	15:15:38	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\20250703_165543.qca	
+11	15:15:46	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qca	
+11	15:16:46	File closed	
+10	15:16:50	File closed	
+2	15:16:50	File closed	
+1	15:17:33	Disconnected	
+1	15:24:04	Realtime started	
+1	16:57:28	Rigid body identification results	Rigid body identification results:  2 successful  1 failed
+1	16:57:28	Not all gaps were filled	2 gaps out of 7 were filled. The other 5 gaps were longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	16:57:28	File created	
+1	16:58:49	File closed	
+1	16:58:50	Realtime started	
+1	16:59:01	Rigid body identification results	Rigid body identification results:  2 successful  1 failed
+1	16:59:01	File created	
+1	16:59:58	File closed	
+1	16:59:59	Realtime started	
+1	17:00:06	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	17:00:06	File created	
+1	17:01:46	Rigid body: SCREEN added.	The new body definition was added both to the file and to the Project Options.
+1	17:01:55	File closed	
+1	17:01:56	Realtime started	
+1	17:02:02	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	17:02:02	File created	
+1	17:02:35	File closed	
+1	17:02:36	Realtime started	
+1	17:09:34	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	17:09:34	File created	
+1	17:11:35	File closed	
+1	17:11:36	Realtime started	
+1	17:11:41	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	17:11:42	File created	
+1	17:13:03	File closed	
+1	17:13:04	Realtime started	
+1	17:13:09	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	17:13:09	File created	
+1	17:13:38	Rigid body: SCREEN added.	The new body definition was added both to the file and to the Project Options.
+1	17:13:44	File closed	
+1	17:13:45	Realtime started	
+1	17:13:50	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	17:13:50	File created	
+1	17:14:07	File closed	
+1	17:14:08	Realtime started	
+1	17:14:14	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	17:14:14	File created	
+1	17:15:13	File closed	
+1	17:15:14	Realtime started	
+1	17:15:20	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	17:15:20	File created	
+1	17:18:39	Rigid body: SCREEN added.	The new body definition was added both to the file and to the Project Options.
+1	17:19:20	Rigid body: SCREEN added.	The new body definition was added both to the file and to the Project Options.
+1	17:19:20	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "SCREEN": in 100 of the 100 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	17:19:33	File closed	
+1	17:19:34	Realtime started	
+1	17:19:39	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	17:19:39	File created	
+1	17:26:35	Realtime started	
+1	17:26:44	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	17:26:44	File created	
+1	17:26:48	File closed	
+1	17:26:49	Realtime started	
+1	22:50:41	Disconnected	
+1	22:50:41	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 002 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 003 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 004 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 005 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 006 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 007 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 008 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 009 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 010 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 011 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection. 012 - code 10 - camera 04 (192.168.253.7) : The camera closed the connection.

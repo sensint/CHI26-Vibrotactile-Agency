@@ -1,0 +1,43 @@
+1	11:01:52	Realtime started	
+1	11:02:48	Disconnected	
+1	11:10:32	Realtime started	
+1	11:22:03	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	11:22:03	File created	
+1	11:22:07	File closed	
+1	11:22:08	Realtime started	
+1	11:44:17	Disconnected	
+1	11:53:34	Realtime started	
+1	11:57:34	Disconnected	
+1	12:52:39	Realtime started	
+1	13:12:15	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	13:12:15	File created	
+1	13:12:20	File closed	
+1	13:12:21	Realtime started	
+1	13:38:59	Disconnected	
+1	13:38:59	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 002 - code 10 - camera 05 (192.168.253.5) : The camera closed the connection. 003 - code 10 - camera 06 (192.168.253.6) : The camera closed the connection. 004 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection.
+1	14:23:40	Camera synchronization error.	Error(s) while connecting to cameras:  Camera 1 (192.168.253.4) - Error code (18): The camera did not accept a certain command. Message: [Syntax Error] ptpmode mark  Camera 2 (192.168.253.6) - Error code (18): The camera did not accept a certain command. Message: [Syntax Error] ptpmode mark  Camera 3 (192.168.253.3) - Error code (18): The camera did not accept a certain command. Message: [Syntax Error] ptpmode mark  Camera 4 (192.168.253.7) - Error code (18): The camera did not accept a certain command. Message: [Syntax Error] ptpmode mark  Camera 5 (192.168.253.5) - Error code (18): The camera did not accept a certain command. Message: [Syntax Error] ptpmode mark  Camera 6 (192.168.253.8) - Error code (18): The camera did not accept a certain command. Message: [Syntax Error] ptpmode mark  
+1	14:24:41	Camera synchronization error.	Error(s) while connecting to cameras:  Camera 1 (192.168.253.3) - Error code (18): The camera did not accept a certain command. Message: [Syntax Error] ptpmode mark  Camera 2 (192.168.253.6) - Error code (18): The camera did not accept a certain command. Message: [Syntax Error] ptpmode mark  Camera 3 (192.168.253.5) - Error code (18): The camera did not accept a certain command. Message: [Syntax Error] ptpmode mark  Camera 4 (192.168.253.8) - Error code (18): The camera did not accept a certain command. Message: [Syntax Error] ptpmode mark  Camera 5 (192.168.253.4) - Error code (18): The camera did not accept a certain command. Message: [Syntax Error] ptpmode mark  Camera 6 (192.168.253.7) - Error code (18): The camera did not accept a certain command. Message: [Syntax Error] ptpmode mark  
+1	14:28:43	Realtime started	
+1	14:57:59	Disconnected	
+1	15:06:58	Realtime started	
+1	15:10:00	Disconnected	
+1	15:10:00	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 10 - camera 04 (192.168.253.5) : The camera closed the connection. 002 - code 10 - camera 04 (192.168.253.5) : The camera closed the connection. 003 - code 10 - camera 05 (192.168.253.6) : The camera closed the connection. 004 - code 10 - camera 05 (192.168.253.6) : The camera closed the connection. 005 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 006 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 007 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 008 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 009 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 010 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection.
+1	15:11:09	Camera synchronization error.	Error(s) while connecting to cameras:  Camera 5 (192.168.253.3) - Error code (10): The camera closed the connection. 
+1	15:12:56	Realtime started	
+1	15:13:33	Disconnected	
+1	15:13:33	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 002 - code 10 - camera 03 (192.168.253.8) : The camera closed the connection. 003 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 004 - code 10 - camera 04 (192.168.253.5) : The camera closed the connection. 005 - code 10 - camera 01 (192.168.253.4) : The camera closed the connection. 006 - code 10 - camera 04 (192.168.253.5) : The camera closed the connection. 007 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 008 - code 10 - camera 02 (192.168.253.3) : The camera closed the connection. 009 - code 10 - camera 05 (192.168.253.6) : The camera closed the connection. 010 - code 10 - camera 05 (192.168.253.6) : The camera closed the connection.
+1	16:39:46	Realtime started	
+2	16:49:03	File loaded from C:\Users\aykumar\Documents\chi\Calibrations\q.qca	
+2	16:49:13	File closed	
+1	16:49:17	Disconnected	
+1	16:49:30	Realtime started	
+1	16:51:16	Rigid body identification results	Rigid body identification results:  0 successful  2 failed
+1	16:51:16	File created	
+1	16:51:24	File closed	
+1	16:51:25	Realtime started	
+1	16:53:10	Disconnected	
+1	16:54:04	Realtime started	
+1	16:57:52	Disconnected	
+1	16:57:54	Realtime started	
+1	18:04:59	Realtime started	
+1	19:41:11	Disconnected	

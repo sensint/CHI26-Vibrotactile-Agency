@@ -1,0 +1,73 @@
+1	10:56:31	Realtime started	
+1	11:39:34	Rigid body identification results	Rigid body identification results:  2 successful  1 failed
+1	11:39:34	File created	
+1	11:39:45	File closed	
+1	11:39:46	Realtime started	
+1	11:39:58	Rigid body identification results	Rigid body identification results:  1 successful  1 failed
+1	11:39:58	File created	
+1	11:43:10	File closed	
+1	11:43:11	Realtime started	
+1	11:47:20	Rigid body identification results	Rigid body identification results:  2 successful  1 failed
+1	11:47:21	File created	
+1	11:47:37	Rigid body: pen_new added.	The new body definition was added both to the file and to the Project Options.
+1	11:47:37	Rigid body identification results	Rigid body identification results:  0 successful  1 failed  2 skipped(already identified, or part of an AIM model)
+1	11:48:18	File closed	
+1	11:48:19	Realtime started	
+1	11:48:33	Not all gaps were filled	149 gaps out of 150 were filled. One gap was longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	11:48:33	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	11:48:33	Not all gaps were filled	The gap was not filled. The gap was longer than 10 frames (max gap length).  Adjust maximum gap length in trajectories settings in project options or in reprocessing trajectories settings.
+1	11:48:33	File created	
+1	12:06:06	File closed	
+1	12:06:08	Realtime started	
+1	12:06:25	Rigid body identification results	Rigid body identification results:  3 successful  0 failed
+1	12:06:25	Rigid bodies did not always match definition	When 6D data is calculated from the positions of markers, at least three of the points of a body must be present in a data frame to let QTM calculate the 6D position of the rigid body.  Even if three or more points are present in a frame, sometimes the 6D position is not calculated anyway, because the distances between points do not match the rigid body definition well enough.  This happened now: Body "pen_new": in 1912 of the 3500 frames where at least three points were present  To avoid this, either increase the "Bone length tolerance" parameter, improve the rigidity of the body or correct the definition of the body.
+1	12:06:25	File created	
+1	12:06:52	File closed	
+1	12:06:53	Realtime started	
+1	12:07:03	Rigid body identification results	Rigid body identification results:  2 successful  0 failed
+1	12:07:03	File created	
+1	12:07:20	Rigid body: pen_dried added.	The new body definition was added both to the file and to the Project Options.
+1	12:07:49	File closed	
+1	12:07:50	Realtime started	
+1	12:10:04	Rigid body identification results	Rigid body identification results:  3 successful  0 failed
+1	12:10:04	File created	
+1	12:11:02	File closed	
+1	12:11:03	Realtime started	
+1	12:11:12	Rigid body identification results	Rigid body identification results:  1 successful  0 failed
+1	12:11:12	File created	
+1	12:11:46	File closed	
+1	12:11:47	Realtime started	
+1	12:15:42	No 6D bodies are enabled	
+1	12:15:42	File created	
+1	12:16:15	Rigid body: pen_new added.	The new body definition was added both to the file and to the Project Options.
+1	12:16:50	Rigid body: screen_new added.	The new body definition was added both to the file and to the Project Options.
+1	12:16:58	File closed	
+1	12:16:59	Realtime started	
+1	12:17:39	Rigid body identification results	Rigid body identification results:  3 successful  0 failed
+1	12:17:39	File created	
+1	12:18:54	File closed	
+1	12:18:55	Realtime started	
+1	12:19:03	Rigid body identification results	Rigid body identification results:  1 successful  0 failed
+1	12:19:03	File created	
+1	12:19:56	Rigid body: SCREEN added.	The new body definition was added both to the file and to the Project Options.
+1	12:20:25	File closed	
+1	12:20:26	Realtime started	
+1	12:20:31	Rigid body identification results	Rigid body identification results:  3 successful  0 failed
+1	12:20:31	File created	
+1	12:20:54	File closed	
+1	12:20:55	Realtime started	
+1	12:23:36	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	12:23:36	File created	
+1	12:26:22	File closed	
+1	12:26:23	Realtime started	
+1	12:30:05	Disconnected	
+1	12:30:23	Realtime started	
+1	12:44:55	Disconnected	
+1	16:29:09	Realtime started	
+1	16:51:29	Disconnected	
+1	16:52:28	Realtime started	
+1	16:52:35	Rigid body identification results	Rigid body identification results:  4 successful  0 failed
+1	16:52:35	File created	
+1	16:52:39	File closed	
+1	16:52:40	Realtime started	
+1	19:24:23	Disconnected	
